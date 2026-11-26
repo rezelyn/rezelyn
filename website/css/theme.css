@@ -1,0 +1,53 @@
+:root {
+  --accent: #d52146;
+  --accent-glow: rgba(213, 33, 70, 0.4);
+  --accent-soft: rgba(213, 33, 70, 0.15);
+  --card-radius: 0px;
+  --card-padding: 48px;
+  --card-gap: 30px;
+}
+
+/* dark mode */
+:root,
+[data-theme="dark"] {
+  --bg: #05050b;
+  --bg-gradient: #05050b;
+  --card-bg: transparent;
+  --card-bg-idle: transparent;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-shadow:
+    0 8px 40px rgba(255, 255, 255, 0.078), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --text: #dde0f0;
+  --text-muted: rgba(155, 160, 200, 0.7);
+  --buttons-fill: rgba(180, 185, 220, 0.4);
+  --toggle-bg: rgba(255, 255, 255, 0.06);
+  --toggle-icon: #9ba8cc;
+  --divider: rgba(255, 255, 255, 0.08);
+  --tag-bg: rgba(213, 33, 70, 0.15);
+  --tag-text: rgba(255, 120, 148, 1);
+}
+
+/* light mode */
+[data-theme="light"] {
+  --bg: #c8dff0;
+  --bg-gradient: linear-gradient(
+    to bottom,
+    #bdd8ee 0%,
+    #f4cdef 45%,
+    #e8d0da 80%,
+    #ead4dc 100%
+  );
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --card-bg-idle: rgba(255, 255, 255, 0.35);
+  --card-border: rgba(213, 33, 70, 0.12);
+  --card-shadow:
+    0 8px 40px rgba(213, 33, 70, 0.08), 0 0 0 1px rgba(213, 33, 70, 0.08);
+  --text: #2a1a22;
+  --text-muted: rgba(80, 50, 65, 0.6);
+  --buttons-fill: rgba(100, 60, 80, 0.35);
+  --toggle-bg: rgba(213, 33, 70, 0.08);
+  --toggle-icon: #d52146;
+  --divider: rgba(213, 33, 70, 0.1);
+  --tag-bg: rgba(213, 33, 70, 0.1);
+  --tag-text: #c01a3a;
+}
