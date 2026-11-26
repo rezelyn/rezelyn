@@ -1,6 +1,6 @@
 <div data-importer="stats" align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=rezelyn&hide_title=true&hide_rank=false&show_icons=true&disable_animations=false&theme=github_dark&locale=en&hide_border=true" height="180" alt="stats graph"/>
-    <img src="https://streak-stats.demolab.com?user=rezelyn&locale=en&mode=daily&theme=github_dark&hide_border=true&border_radius=5&date_format=j/n%5B/Y%5D&order=3" height="180" alt="streak graph"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=rezelyn&hide_title=true&hide_rank=false&show_icons=true&disable_animations=false&theme=github_dark&locale=en&hide_border=true" height="150" alt="stats graph"/>
+    <img src="https://streak-stats.demolab.com?user=rezelyn&locale=en&mode=daily&theme=github_dark&hide_border=true&border_radius=5&date_format=j/n%5B/Y%5D&order=3" height="150" alt="streak graph"/>
 </div>
 
 <div data-importer="stats" align="center">
